@@ -40,7 +40,7 @@ def introducao(): # funcao para exibir a introducao e seus componentes
                     contribuindo significativamente para o aprimoramento das estratégias de investimentos.''')
     
     # Fonte: The Nobel Prize
-    # introducao.image('img_introducao.jpg', caption='Fonte: The Nobel Prize')
+    introducao.image('https://raw.githubusercontent.com/jrodrigotico/Portfolio-Markowitz/main/imagens/img_introducao.jpg', caption='Fonte: The Nobel Prize')
 
 exibir_introducao = st.session_state.get('exibir_introducao', True)
 
