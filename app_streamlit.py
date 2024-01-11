@@ -99,7 +99,7 @@ if not exibir_introducao:
     filtro_subsetor = filtro_subsetor[valores_fixos] # mantem os valores que nao estao em 'acoes_erro'
 
     # filtro de acoes depois de selecionados os subsetores
-    selecionar_acoes = st.sidebar.multiselect('Ações', sorted(filtro_subsetor['Código'] + '.SA'), help='Esperar gráfico de uma ação ser plotado antes de selecionar outra ação!')
+    selecionar_acoes = st.sidebar.multiselect('Ações', sorted(filtro_subsetor['Código'] + '.SA'))
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
