@@ -26,16 +26,16 @@ Ações brasilerias precisam estar com **'.SA'** para servirem como símbolo no 
 
 A ação da empresa **Allos (ALOS3)** está no subsetor **'Outros'**.
 
-No arquivo **'base_acoes.csv'**, localizado na pasta 'arquivos', consta uma lista de todas as ações listadas na B3, conforme a base do **Economatica** em 14/12/2023. Ações com tickers de seis caracteres foram retiradas, pois não são acessíveis via API do Yahoo Finance.
+No arquivo **'base_acoes.csv'**, localizado na pasta 'arquivos_csv', consta uma lista de todas as ações listadas na B3, conforme base do **Economatica** em 14/12/2023. Ações com tickers de seis caracteres foram retiradas, pois não são acessíveis via API do Yahoo Finance.
 
-Algumas ações apresentaram problemas durante a extração de dados da API do Yahoo Finance, então essas empresas foram excluídas da lista de tickers. Os detalhes dessas ações estão no arquivo **'erro_acoes.csv'**, também na pasta 'arquivos.csv'.
+Algumas ações apresentaram problemas durante a extração de dados da API do Yahoo Finance, então essas empresas foram excluídas da lista de tickers. Os detalhes dessas ações estão no arquivo **'erro_acoes.csv'**, na pasta 'arquivos_csv'.
 
 
 ## :bar_chart: Demonstração da aplicação
 
 ![Teoria Moderna de Portfólio - Markowitz](https://i9.ytimg.com/vi_webp/xDNOIRyIDgw/mq1.webp?sqp=COSt_KwG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE8gXChlMA8=&rs=AOn4CLATk4qzMFA5F0ZrXnrsn1VX8Cq4BQ)
 
-Para a plotagem dos gráficos foi utilizado o pacote 'Plotly' (https://plotly.com) por possuir recursos interativos que auxiliam na visualização dos dados.
+Para a plotagem dos gráficos foi utilizado o pacote 'Plotly' (https://plotly.com) por possuir recursos interativos que auxiliam a visualização dos dados.
 
 :exclamation: É necessário aguardar a conclusão do plotagem do gráfico histórico de preços antes de escolher uma nova ação na caixa de seleção 'Ações'.
 
