@@ -1,63 +1,63 @@
-﻿;0;;;
-0;QVQP3.SA;Comércio Varejista;;
-1;AESO3.SA;Energia Elétrica;;
-2;GRAO3.SA;Energia Elétrica;;
-3;APTI3.SA;Energia Elétrica;;
-4;APTI4.SA;Energia Elétrica;;todas as acoes tem em base_completa_acoes_subsetor
-5;FRRN3B.SA;Energia Elétrica;;
-6;FRRN5B.SA;Energia Elétrica;;
-7;FRRN6B.SA;Energia Elétrica;;
-8;BPAR3.SA;Agropecuária;;
-9;BBML3.SA;Energia Elétrica;;
-10;BETP3.SA;Energia Elétrica;;
-11;BRQB3.SA;Químicos;;
-12;CABI3.SA;Outros;;
-13;CGEE3.SA;Gás;;
-14;CGEE4.SA;Gás;;
-15;CMSA3.SA;Energia Elétrica;;
-16;CMSA4.SA;Energia Elétrica;;
-17;CEEB6.SA;Tecidos, Vestuário e Calçados;;
-18;COMR3.SA;Energia Elétrica;;
-19;PASS3.SA;Medicamentos e Outros Produtos;;
-20;PASS6.SA;Medicamentos e Outros Produtos;;
-21;CRTE3.SA;Energia Elétrica;;
-22;CRTE5.SA;Energia Elétrica;;
-23;CTCA3.SA;Energia Elétrica;;
-24;DTCY4.SA;Energia Elétrica;;
-25;ENBR3.SA;Energia Elétrica;;
-26;EQMA5B.SA;Energia Elétrica;;
-27;EQMA6B.SA;Energia Elétrica;;
-28;EUFA3.SA;Energia Elétrica;;
-29;OPGM3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos;;
-30;GOLL3.SA;Energia Elétrica;;
-31;HBTS3.SA;Energia Elétrica;;
-32;HBTS6.SA;Energia Elétrica;;
-33;HMOB3.SA;Energia Elétrica;;
-34;IGSN3.SA;Energia Elétrica;;
-35;CATA3.SA;Alimentos Processados;;
-36;CATA4.SA;Alimentos Processados;;
-37;INNT3.SA;Energia Elétrica;;
-38;IVPR3B.SA;Energia Elétrica;;
-39;IVPR4B.SA;Energia Elétrica;;
-40;KLAS3.SA;Energia Elétrica;;
-41;LLBI3.SA;Energia Elétrica;;
-42;LMED3.SA;Energia Elétrica;;
-43;LTEL3B.SA;Energia Elétrica;;
-44;LTLA3B.SA;Energia Elétrica;;
-45;MSRO3.SA;Comércio e Distribuição;;
-46;MNZC3.SA;Comércio e Distribuição;;
-47;NRTQ3.SA;Comércio e Distribuição;;
-48;ODER3.SA;Medicamentos e Outros Produtos;;
-49;PTCA3.SA;Comércio Varejista;;
-50;PTCA11.SA;Comércio Varejista;;
-51;PRPT3.SA;Comércio Varejista;;
-52;QUSW3.SA;Comércio Varejista;;
-53;RBNS11.SA;Material de Transporte;;
-54;SAEN3.SA;Energia Elétrica;;
-55;OPSE3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos;;
-56;OPTS3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos;;
-57;NEMO5.SA;Comércio e Distribuição;;
-58;NEMO6.SA;Comércio e Distribuição;;
-59;TEGA3.SA;Máquinas e Equipamentos;;
-60;UPKP3.SA;Energia Elétrica;;
-61;YBRA3.SA;Outros;;
+﻿;0;
+0;QVQP3.SA;Comércio Varejista
+1;AESO3.SA;Energia Elétrica
+2;GRAO3.SA;Energia Elétrica
+3;APTI3.SA;Energia Elétrica
+4;APTI4.SA;Energia Elétrica
+5;FRRN3B.SA;Energia Elétrica
+6;FRRN5B.SA;Energia Elétrica
+7;FRRN6B.SA;Energia Elétrica
+8;BPAR3.SA;Agropecuária
+9;BBML3.SA;Energia Elétrica
+10;BETP3.SA;Energia Elétrica
+11;BRQB3.SA;Químicos
+12;CABI3.SA;Outros
+13;CGEE3.SA;Gás
+14;CGEE4.SA;Gás
+15;CMSA3.SA;Energia Elétrica
+16;CMSA4.SA;Energia Elétrica
+17;CEEB6.SA;Tecidos, Vestuário e Calçados
+18;COMR3.SA;Energia Elétrica
+19;PASS3.SA;Medicamentos e Outros Produtos
+20;PASS6.SA;Medicamentos e Outros Produtos
+21;CRTE3.SA;Energia Elétrica
+22;CRTE5.SA;Energia Elétrica
+23;CTCA3.SA;Energia Elétrica
+24;DTCY4.SA;Energia Elétrica
+25;ENBR3.SA;Energia Elétrica
+26;EQMA5B.SA;Energia Elétrica
+27;EQMA6B.SA;Energia Elétrica
+28;EUFA3.SA;Energia Elétrica
+29;OPGM3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos
+30;GOLL3.SA;Energia Elétrica
+31;HBTS3.SA;Energia Elétrica
+32;HBTS6.SA;Energia Elétrica
+33;HMOB3.SA;Energia Elétrica
+34;IGSN3.SA;Energia Elétrica
+35;CATA3.SA;Alimentos Processados
+36;CATA4.SA;Alimentos Processados
+37;INNT3.SA;Energia Elétrica
+38;IVPR3B.SA;Energia Elétrica
+39;IVPR4B.SA;Energia Elétrica
+40;KLAS3.SA;Energia Elétrica
+41;LLBI3.SA;Energia Elétrica
+42;LMED3.SA;Energia Elétrica
+43;LTEL3B.SA;Energia Elétrica
+44;LTLA3B.SA;Energia Elétrica
+45;MSRO3.SA;Comércio e Distribuição
+46;MNZC3.SA;Comércio e Distribuição
+47;NRTQ3.SA;Comércio e Distribuição
+48;ODER3.SA;Medicamentos e Outros Produtos
+49;PTCA3.SA;Comércio Varejista
+50;PTCA11.SA;Comércio Varejista
+51;PRPT3.SA;Comércio Varejista
+52;QUSW3.SA;Comércio Varejista
+53;RBNS11.SA;Material de Transporte
+54;SAEN3.SA;Energia Elétrica
+55;OPSE3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos
+56;OPTS3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos
+57;NEMO5.SA;Comércio e Distribuição
+58;NEMO6.SA;Comércio e Distribuição
+59;TEGA3.SA;Máquinas e Equipamentos
+60;UPKP3.SA;Energia Elétrica
+61;YBRA3.SA;Outros
