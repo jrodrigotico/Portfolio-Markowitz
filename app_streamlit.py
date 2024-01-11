@@ -65,7 +65,7 @@ if not exibir_introducao:
     st.markdown(''':dollar: No que diz respeito à simulação, não há uma regra definida para o número de portfolios a serem simulados, porém
                 é necessário no mínimo duas ações para compor um portfólio.''')
     
-    st.warning(f''':heavy_exclamation_mark: Esperar gráfico de uma ação ser plotado antes de selecionar outra ação ''')
+    st.warning(f''':heavy_exclamation_mark: Esperar gráfico de preços de uma ação ser plotado antes de selecionar outra ação ''')
     st.write('---')
 
     st.sidebar.header('Parâmetros')
