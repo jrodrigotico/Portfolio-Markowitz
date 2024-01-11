@@ -14,10 +14,10 @@ import warnings
 
 # ---------------- Arquivos ---------------- # 
 # yf.pdr_override() #corrige problemas da bibliotece do pandas_datareader
-acoes = pd.read_csv('https://raw.githubusercontent.com/jrodrigotico/python/projeto_acoes/base_completa_acoes_subsetor.csv?token=GHSAT0AAAAAACFYHJO3WJCI5X6KUJHL2EOEZMWZYZA', sep=';')[['Código','Subsetor Bovespa']]
+acoes = pd.read_csv('https://raw.githubusercontent.com/jrodrigotico/Portfolio-Markowitz/main/arquivos_csv/base_acoes.csv', sep=';')[['Código','Subsetor Bovespa']]
 acoes = acoes[acoes['Código'].apply(lambda x: len(str(x))==5)]
 
-selic = pd.read_csv('https://raw.githubusercontent.com/jrodrigotico/python/projeto_acoes/selic.csv?token=GHSAT0AAAAAACFYHJO2PVMIE4VC4542YMWMZMWZZ4A', sep=';')
+selic = pd.read_csv('https://raw.githubusercontent.com/jrodrigotico/Portfolio-Markowitz/main/arquivos_csv/selic.csv', sep=';')
 selic['Data'] = pd.to_datetime(selic['Data'], dayfirst=True)
 
 
@@ -40,7 +40,7 @@ def introducao(): # funcao para exibir a introducao e seus componentes
                     contribuindo significativamente para o aprimoramento das estratégias de investimentos.''')
     
     # Fonte: The Nobel Prize
-    introducao.image('intro_markow.jpg', caption='Fonte: The Nobel Prize')
+    # introducao.image('img_introducao.jpg', caption='Fonte: The Nobel Prize')
 
 exibir_introducao = st.session_state.get('exibir_introducao', True)
 
@@ -85,7 +85,7 @@ if not exibir_introducao:
     filtro_subsetor = pd.DataFrame(filtro_subsetor)
 
     # retirar tickers que deram problema com o yahoo finance
-    acoes_erro = pd.read_csv('https://raw.githubusercontent.com/jrodrigotico/python/projeto_acoes/acoes_erro_yahoo.csv?token=GHSAT0AAAAAACFYHJO2QYS6JMRPYKM2DOQQZMWZ22Q', sep=';') 
+    acoes_erro = pd.read_csv('https://raw.githubusercontent.com/jrodrigotico/Portfolio-Markowitz/main/arquivos_csv/erro_acao.csv', sep=';') 
     acoes_erro.columns = ['Index', 'Ticker']
 
     # funcao para retirar '.SA' mantendo apenas os primeiros 5 caracteres
