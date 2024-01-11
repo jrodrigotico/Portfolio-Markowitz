@@ -61,8 +61,6 @@ streamlit run app_streamlit.py
 Alternativamente, pode-se acessar o aplicativo por qualquer navegador pelo link:
 https://portfolio-markowitz.streamlit.app.    
 
-:exclamation: Recomenda-se a utilização do aplicativo em um navegador no modo 'Dark'.  
-
 
 ## :mag_right: Tecnologias utilizadas
 - ``Python - 3.11.6``
