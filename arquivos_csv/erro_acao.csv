@@ -1,63 +1,63 @@
-﻿0;
-QVQP3.SA;Comércio Varejista
-AESO3.SA;Energia Elétrica
-GRAO3.SA;Energia Elétrica
-APTI3.SA;Energia Elétrica
-APTI4.SA;Energia Elétrica
-FRRN3B.SA;Energia Elétrica
-FRRN5B.SA;Energia Elétrica
-FRRN6B.SA;Energia Elétrica
-BPAR3.SA;Agropecuária
-BBML3.SA;Energia Elétrica
-BETP3.SA;Energia Elétrica
-BRQB3.SA;Químicos
-CABI3.SA;Outros
-CGEE3.SA;Gás
-CGEE4.SA;Gás
-CMSA3.SA;Energia Elétrica
-CMSA4.SA;Energia Elétrica
-CEEB6.SA;Tecidos, Vestuário e Calçados
-COMR3.SA;Energia Elétrica
-PASS3.SA;Medicamentos e Outros Produtos
-PASS6.SA;Medicamentos e Outros Produtos
-CRTE3.SA;Energia Elétrica
-CRTE5.SA;Energia Elétrica
-CTCA3.SA;Energia Elétrica
-DTCY4.SA;Energia Elétrica
-ENBR3.SA;Energia Elétrica
-EQMA5B.SA;Energia Elétrica
-EQMA6B.SA;Energia Elétrica
-EUFA3.SA;Energia Elétrica
-OPGM3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos
-GOLL3.SA;Energia Elétrica
-HBTS3.SA;Energia Elétrica
-HBTS6.SA;Energia Elétrica
-HMOB3.SA;Energia Elétrica
-IGSN3.SA;Energia Elétrica
-CATA3.SA;Alimentos Processados
-CATA4.SA;Alimentos Processados
-INNT3.SA;Energia Elétrica
-IVPR3B.SA;Energia Elétrica
-IVPR4B.SA;Energia Elétrica
-KLAS3.SA;Energia Elétrica
-LLBI3.SA;Energia Elétrica
-LMED3.SA;Energia Elétrica
-LTEL3B.SA;Energia Elétrica
-LTLA3B.SA;Energia Elétrica
-MSRO3.SA;Comércio e Distribuição
-MNZC3.SA;Comércio e Distribuição
-NRTQ3.SA;Comércio e Distribuição
-ODER3.SA;Medicamentos e Outros Produtos
-PTCA3.SA;Comércio Varejista
-PTCA11.SA;Comércio Varejista
-PRPT3.SA;Comércio Varejista
-QUSW3.SA;Comércio Varejista
-RBNS11.SA;Material de Transporte
-SAEN3.SA;Energia Elétrica
-OPSE3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos
-OPTS3.SA;Serviços Médico - Hospitalares, Análises e Diagnósticos
-NEMO5.SA;Comércio e Distribuição
-NEMO6.SA;Comércio e Distribuição
-TEGA3.SA;Máquinas e Equipamentos
-UPKP3.SA;Energia Elétrica
-YBRA3.SA;Outros
+﻿;0
+0;QVQP3.SA
+1;AESO3.SA
+2;GRAO3.SA
+3;APTI3.SA
+4;APTI4.SA
+5;FRRN3B.SA
+6;FRRN5B.SA
+7;FRRN6B.SA
+8;BPAR3.SA
+9;BBML3.SA
+10;BETP3.SA
+11;BRQB3.SA
+12;CABI3.SA
+13;CGEE3.SA
+14;CGEE4.SA
+15;CMSA3.SA
+16;CMSA4.SA
+17;CEEB6.SA
+18;COMR3.SA
+19;PASS3.SA
+20;PASS6.SA
+21;CRTE3.SA
+22;CRTE5.SA
+23;CTCA3.SA
+24;DTCY4.SA
+25;ENBR3.SA
+26;EQMA5B.SA
+27;EQMA6B.SA
+28;EUFA3.SA
+29;OPGM3.SA
+30;GOLL3.SA
+31;HBTS3.SA
+32;HBTS6.SA
+33;HMOB3.SA
+34;IGSN3.SA
+35;CATA3.SA
+36;CATA4.SA
+37;INNT3.SA
+38;IVPR3B.SA
+39;IVPR4B.SA
+40;KLAS3.SA
+41;LLBI3.SA
+42;LMED3.SA
+43;LTEL3B.SA
+44;LTLA3B.SA
+45;MSRO3.SA
+46;MNZC3.SA
+47;NRTQ3.SA
+48;ODER3.SA
+49;PTCA3.SA
+50;PTCA11.SA
+51;PRPT3.SA
+52;QUSW3.SA
+53;RBNS11.SA
+54;SAEN3.SA
+55;OPSE3.SA
+56;OPTS3.SA
+57;NEMO5.SA
+58;NEMO6.SA
+59;TEGA3.SA
+60;UPKP3.SA
+61;YBRA3.SA
