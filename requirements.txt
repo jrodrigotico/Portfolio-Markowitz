@@ -1,0 +1,14 @@
+matplotlib
+plotly
+docx
+pandas
+yfinance
+pandas_datareader
+numpy
+streamlit
+os
+plotly.express
+plotly.colors
+plotly.graph_objects
+warnings
+datetime
