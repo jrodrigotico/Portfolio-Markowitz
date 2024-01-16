@@ -61,7 +61,7 @@ if not exibir_introducao:
     st.markdown(''':grey_question: Utilizou-se o 'Subsetor' em vez do 'Segmento' de cada ação na B3 para simplificar a seleção das ações.''')
     st.text('\n')
 
-    st.markdown(''':heavy_exclamation_mark: Esperar gráfico de preços de uma ação ser plotado antes de selecionar outra ação ''')
+    st.markdown(''':heavy_exclamation_mark: No parÂmetro 'Ações' esperar gráfico de preços de uma ação ser plotado antes de selecionar outra ação ''')
     st.text('\n')
 
     st.markdown('''	:flag-br: A taxa livre de risco (*Risk-Free*) escolhida foi a **SELIC**, que será utilizada no cálculo do Índice de Sharpe. Optou-se por 
