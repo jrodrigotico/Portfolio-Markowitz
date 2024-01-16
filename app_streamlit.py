@@ -201,7 +201,7 @@ if not exibir_introducao:
         st.markdown('''Deve-se evitar ativos com grau de correlação próximos de 1 ou -1, pois convergem mais intensamente no mesmo sentido,
                     tanto do lado positivo como do lado negativo.''')
         st.text('\n')
-        st.markdown('''Portanto, quanto menor a correlação entre os ativos ou até mesmo quanto mais negativa,
+        st.markdown('''Portanto, quanto menor a correlação entre os ativos,
                     menor será o risco dessa carteira se comparada aos ativos individuais ''')
         
         heatmap_retorn = px.imshow(matriz_corr, text_auto=True)
