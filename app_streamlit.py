@@ -29,7 +29,7 @@ def introducao(): # funcao para exibir a introducao e seus componentes
                     diz que diferentes ativos podem compor 'n' carteiras de investimentos com o intuito de encontrar
                     uma relação ótima entre risco e retorno. Para determinar essa relação, Markowitz não descarta o uso do 
                     julgamento profissional na escolha dos ativos, utilizando critérios específicos que não são contemplados nos cálculos 
-                    matemáticos . Essa abordagem viabiliza o cálculo de combinações de 'retorno' e 'risco'.''')
+                    matemáticos.''')
     st.text('\n')
     introducao.markdown('''A teoria tem como principal objetivo diminuir o 'Risco Diversificável', que consiste 
                     no risco que pode ser eliminado por meio da diversificação da carteira de investimentos. Diferentemente 
