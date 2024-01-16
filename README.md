@@ -33,7 +33,7 @@ Algumas ações apresentaram problemas durante a extração de dados da API do Y
 
 ## :bar_chart: Demonstração da aplicação
 
-[![Teoria Moderna de Portfólio - Markowitz](https://youtu.be/xDNOIRyIDgw)]
+[![Teoria Moderna de Portfólio - Markowitz](https://www.youtube.com/watch?v=xDNOIRyIDgw)]
 
 Para a plotagem dos gráficos foi utilizado o pacote 'Plotly' (https://plotly.com) por possuir recursos interativos que auxiliam a visualização dos dados.
 
