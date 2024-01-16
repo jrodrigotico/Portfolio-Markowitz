@@ -38,7 +38,7 @@ Algumas ações apresentaram problemas durante a extração de dados da API do Y
 Para a plotagem dos gráficos foi utilizado o pacote 'Plotly' (https://plotly.com) por possuir recursos interativos que auxiliam a visualização dos dados.
 
 
-## 	:desktop_computer: Acesso ao aplicativo
+## 	:desktop_computer: Acesso à aplicação
 Clone do repositório:
 
 ```
