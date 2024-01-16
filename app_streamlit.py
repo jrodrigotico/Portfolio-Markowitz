@@ -57,11 +57,17 @@ if not exibir_introducao:
     st.markdown(''':calendar: O intervalo de tempo considerado está entre 16/01/2013 e 01/11/2023, 
                 sendo possível selecionar a periodicidade dos preços das ações. ''')
     st.text('\n')
+
     st.markdown(''':grey_question: Utilizou-se o 'Subsetor' em vez do 'Segmento' de cada ação na B3 para simplificar a seleção das ações.''')
     st.text('\n')
+
+    st.markdown(''':heavy_exclamation_mark: Esperar gráfico de preços de uma ação ser plotado antes de selecionar outra ação ''')
+    st.text('\n')
+
     st.markdown('''	:flag-br: A taxa livre de risco (*Risk-Free*) escolhida foi a **SELIC**, que será utilizada no cálculo do Índice de Sharpe. Optou-se por 
             utilizar a média aritmética da **SELIC** durante o intervalo de tempo selecionado.''')
     st.text('\n')
+
     st.markdown(''':dollar: No que diz respeito à simulação, não há uma regra definida para o número de portfolios a serem simulados, porém
                 é necessário no mínimo duas ações para compor um portfólio.''')
     st.write('---')
@@ -132,7 +138,7 @@ if not exibir_introducao:
         tabela = pd.concat(tabelas_acoes, axis=1)
 
         st.subheader(f'Preço das ações - {peridiocidade}')
-        st.warning(f''':heavy_exclamation_mark: Esperar gráfico de preços de uma ação ser plotado antes de selecionar outra ação ''')
+        
         st.markdown('''Os preços das ações selecionadas ao longo do intervalo de tempo estão normalizados. 
                     Essa normalização garante que o preço de todas as ações comece a partir do mesmo valor, 
                     possibilitando a comparação e sem alterar o comportamento dessas ações.''')
