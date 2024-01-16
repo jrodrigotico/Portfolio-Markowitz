@@ -20,7 +20,7 @@ Markowitz é o principal responsável por introduzir conceitos de diversificaç�
 
 
 ## 	:scissors: Tratamento dos dados
-A taxa **SELIC** foi selecionada como a taxa livre de risco para calcular o **Índice de Sharpe**. Os dados estão disponíveis para o período entre 16/01/2013 e 31/11/2023 em 'selic.csv' na pasta 'arquivos'.
+A taxa **SELIC** foi selecionada como a taxa livre de risco para calcular o **Índice de Sharpe**. Os dados estão disponíveis para o período entre 16/01/2013 e 31/11/2023 em 'selic.csv' na pasta 'arquivos_csv'.
 
 Ações brasilerias precisam estar com **'.SA'** para servirem como símbolo no 'Yahoo Finance' e assim extrair informações.
 
