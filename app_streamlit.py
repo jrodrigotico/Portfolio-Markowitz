@@ -192,7 +192,7 @@ if not exibir_introducao:
                     são necessários no mínimo 2 ativos! :heavy_exclamation_mark:''')
 
         matriz_corr = round(tabela_retorn.corr(),4)
-
+ 
         st.write('---')
         st.header('Matriz de correlação:')
         st.markdown('''A partir dos retornos de cada ativo, é possível calcular a correlação entre eles. A correlação explica
