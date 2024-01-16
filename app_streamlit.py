@@ -213,7 +213,8 @@ if not exibir_introducao:
     fator_periodicidade = []
     numero_portfolios = st.sidebar.number_input('Número de portfolios')
     def parametros_portofolio (numero_portfolios):
-    
+        
+        #objetos primeiramente zerados que serão usados para simulação de n carteiras
         tabela_retorn_esperados = np.zeros(numero_portfolios)
         tabela_volatilidades_esperadas = np.zeros(numero_portfolios)
         tabela_sharpe = np.zeros(numero_portfolios)
@@ -228,17 +229,17 @@ if not exibir_introducao:
             fator_periodicidade = 252     
         
         for i in range(numero_portfolios):
-            pesos_random = np.random.random(len(selecionar_acoes))
+            pesos_random = np.random.random(len(selecionar_acoes)) # aleatoriedade
             pesos_random /= np.sum(pesos_random)
             tabela_pesos[i,:] = pesos_random
             tabela_retorn_esperados[i] = np.sum(media_retor * pesos_random * fator_periodicidade)
             tabela_retorn_esperados_aritm[i] = np.exp(tabela_retorn_esperados[i])-1
-            tabela_volatilidades_esperadas[i] =  np.sqrt(np.dot(pesos_random.T, np.dot(matriz_corr * fator_periodicidade, pesos_random)))
-            tabela_sharpe[i] = (tabela_retorn_esperados[i] - ret_livre) / tabela_volatilidades_esperadas[i]
+            tabela_volatilidades_esperadas[i] =  np.sqrt(np.dot(pesos_random.T, np.dot(matriz_corr * fator_periodicidade, pesos_random))) # formula principal para calcular risco da carteira
+            tabela_sharpe[i] = (tabela_retorn_esperados[i] - ret_livre) / tabela_volatilidades_esperadas[i] # formula do IS
             
-        indice_sharpe_max = tabela_sharpe.argmax()
+        indice_sharpe_max = tabela_sharpe.argmax() # valor máximo para carteira ótima
         carteira_max_retorno = tabela_pesos[indice_sharpe_max]
-        menor_risco = tabela_volatilidades_esperadas.argmin()
+        menor_risco = tabela_volatilidades_esperadas.argmin() # valor minimo para carteira de mínimo risco
         carteira_min_variancia= tabela_pesos[menor_risco]
 
         st.write('---')
