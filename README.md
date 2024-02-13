@@ -1,7 +1,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://portfolio-markowitz.streamlit.app)
 [![Python Version](https://img.shields.io/badge/python-3.11.6-blue.svg)](https://www.python.org/downloads/)
 ![GitHub License](https://img.shields.io/github/license/jrodrigotico/python)
-![Em desenvolvimento](https://img.shields.io/badge/status%20:%20em%20desenvolvimento%20-8A2BE2)
+![Finalizado](https://img.shields.io/badge/status%20:%20em%20desenvolvimento%20-8A2BE2)
 
 
 ## 	:school: Teoria Moderna do Portfolio - Markowitz
